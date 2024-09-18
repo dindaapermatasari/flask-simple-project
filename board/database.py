@@ -8,6 +8,13 @@ def init_app(app):
     app.cli.add_command(init_db_command)
 
 
+def close_db(e=None):
+    db = g.pop("db", None)
+
+    if db is not None:
+        db.close()
+
+
 @click.command("init-db")
 def init_db_command():
     db = get_db()
