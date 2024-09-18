@@ -7,7 +7,7 @@ To run this project, follow the steps below:
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/dindaapermatasari/simple-flask-web-project.git
+   git clone https://github.com/dindaapermatasari/flask-simple-project.git
    
 2. Set up a virtual environment 
 
