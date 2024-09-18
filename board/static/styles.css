@@ -32,7 +32,7 @@ main {
     width: 80%;
     margin: 0 auto;
 }
-}
+
 
 body {
     font-family: sans-serif;
@@ -91,3 +91,4 @@ body {
         margin: 0;
         padding: 0;
     }
+}
