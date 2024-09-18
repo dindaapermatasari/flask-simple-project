@@ -10,6 +10,7 @@ def create_app():
     app = Flask(__name__)
 
     app.register_blueprint(pages.bp)
-    app.register_blueprint(pages.bp)
     app.register_blueprint(posts.bp)
+    print(f"Current Environment: {os.getenv('ENVIRONMENT')}")
+    print(f"Using Database: {app.config.get('DATABASE')}")
     return app
