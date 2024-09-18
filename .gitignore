@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,flask,git,linux,venv
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,flask,git,linux,venv
 
+### Database SQLite ###
+*.sqlite3
+*.sqlite
+
 ### Flask ###
 instance/*
 !instance/.gitignore
