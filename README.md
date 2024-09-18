@@ -7,7 +7,7 @@ To run this project, follow the steps below:
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/simple-flask-web-project.git
+   git clone https://github.com/dindaapermatasari/simple-flask-web-project.git
    
 2. Set up a virtual environment 
 
@@ -18,7 +18,7 @@ To run this project, follow the steps below:
 3. Install the required dependencies
 
    ```bash
-   flask --app board run
+   pip install -r requirements.txt
 
 ## Run the Flask application
   ```bash
