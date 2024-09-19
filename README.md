@@ -20,6 +20,8 @@ To run this project, follow the steps below:
    ```bash
    pip install -r requirements.txt
 
+## Setting Up Environment Variables
+
 ## Run the Flask application
   ```bash
    flask --app board run
