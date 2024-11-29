@@ -34,3 +34,4 @@ def posts():
         "SELECT author, message, created FROM post ORDER BY created DESC"
     ).fetchall()
     return render_template("posts/posts.html", posts=posts)
+    
